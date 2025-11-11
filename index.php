@@ -8,6 +8,16 @@ if($sql->rowCount() > 0){
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Usuários</title>
+    <link rel="stylesheet" href="cyberpunk.css">
+</head>
+<body>
+    
 <h1>Listagem de Usuários</h1>
 <table border="1">
     <tr>
@@ -32,3 +42,6 @@ if($sql->rowCount() > 0){
 </table>
 
 <a href="cadastrar.php"> Cadastrar Usuário</a>
+
+</body>
+</html>

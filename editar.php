@@ -20,6 +20,16 @@ if($id){
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Usuário</title>
+    <link rel="stylesheet" href="cyberpunk.css">
+</head>
+<body>
+
 <h1>Editar Usuário</h1>
 <form method="POST" action="editar_action.php">
     <input type="hidden" name="id" value="<?=$usuario['id'];?>"/>
@@ -31,3 +41,6 @@ if($id){
     </label>
     <input type="submit" value="Atualizar"/>
 </form>
+
+</body>
+</html>

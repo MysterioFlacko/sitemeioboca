@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* sitemeioboca/style.css */
+
+body {
+    /* --- CORREÇÃO DA IMAGEM --- */
+    background-color: #0d0d0d; /* Cor de fundo (fallback) */
+    background-image: url('imagens/backgroundCyberpunk-.jpg'); /* Caminho da imagem */
+    
+    /* Ajustes para a imagem preencher a tela */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Deixa a imagem fixa no fundo */
+
+    /* --- O resto do seu CSS --- */
+    color: #4169e1; /* Cor principal do texto: verde neon */
+    font-family: 'Roboto Mono', monospace; /* <-- FONTE ALTERADA */
+    padding: 20px;
+}
+
+h1 {
+    color: #4169e1 ; /* Magenta neon para títulos */
+    text-shadow: 0 0 5px #4169e1 , 0 0 10px #4169e1 ; /* Efeito de brilho (glow) */
+    border-bottom: 2px solid #00ffff; /* Borda inferior ciano neon */
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid #4169e1 ; /* Borda da tabela verde */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Sombra "contaminada" */
+}
+
+th, td {
+    border: 1px solid #4169e1 ;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #4169e1  ; /* Ciano para cabeçalhos de tabela */
+}
+
+a {
+    color: #4169e1 ; /* Ciano neon para links */
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 3px #4169e1 ;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #4169e1 ; /* Fundo magenta ao passar o mouse */
+    box-shadow: 0 0 10px #4169e1 ;
+}
+
+form {
+    border: 1px solid #4169e1 ; /* Borda do formulário magenta */
+    background-color: #111;
+    padding: 25px;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #4169e1 ; /* Ciano para labels */
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: #222; /* Fundo escuro para inputs */
+    border: 1px solid #4169e1 ; /* Borda verde */
+    color: #4169e1 ; /* Texto verde */
+    padding: 10px;
+    width: calc(100% - 22px); /* Largura total (descontando padding e borda) */
+    font-family: 'Roboto Mono', monospace; /* <-- FONTE ALTERADA */
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #4169e1 ;
+    color: #0d0d0d;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    width: 100%;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #4169e1 ;
+    color: #0d0d0d;
+    box-shadow: 0 0 15px #4169e1 ;
+}
